@@ -122,6 +122,11 @@
   color: white;
   margin-top: 50px;
 }
+.gsides button:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 1px solid #FCB72B;
+}
 .gsides__top {
   display: flex;
   justify-content: space-around;
@@ -341,6 +346,11 @@
   color: white;
   margin: 10px 0;
 }
+.header__box__btn:hover {
+  border: 1px solid #FCB72B;
+  background-color: white;
+  color: #FCB72B;
+}
 .header__toogle {
   display: none;
   margin-top: -20px;
@@ -449,6 +459,11 @@
   background-color: #FCB72B;
   color: white;
   border: none;
+}
+.hero__btn:hover {
+  background-color: white;
+  color: #FCB72B;
+  border: 1px solid #FCB72B;
 }
 
 @media screen and (max-width: 768px) {

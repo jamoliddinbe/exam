@@ -18,6 +18,11 @@
         color: white;
         margin-top: 50px;
     }
+    button:hover{
+        background-color: white;
+        color: #FCB72B;
+        border: 1px solid #FCB72B;
+    }
     &__top{
         display: flex;
         justify-content: space-around;

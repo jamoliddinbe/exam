@@ -34,6 +34,11 @@ background-color: white;
         color: white;
         margin:10px 0;
     }
+    &__btn:hover{
+border:1px solid #FCB72B;
+background-color: white;
+color: #FCB72B;
+    }
 }
     &__toogle{
         display: none;

@@ -37,6 +37,11 @@ width: 510px;
         color: white;
         border: none;
     }
+    &__btn:hover{
+        background-color: white;
+        color: #FCB72B;
+        border: 1px solid #FCB72B;
+    }
 }
 @media screen and (max-width:768px){
     .hero{
