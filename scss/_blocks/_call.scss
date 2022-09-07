@@ -1,0 +1,31 @@
+.call{
+    width: 100%;
+    margin-top: 70px;
+    background-color: #495567;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-around;
+    align-items: center;
+    &__left{
+        h1{
+            color: white;
+            font-size: 48px;
+line-height: 48px;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .call{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width:375px){
+    .call{
+        h1{
+            font-size: 32px;
+line-height: 32px;
+        }
+    }
+}
